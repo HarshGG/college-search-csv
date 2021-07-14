@@ -1,16 +1,18 @@
 ## College Search CSV
-
-The purpose of this lab set is to practice working with a relatively large comma separated (CSV) file in Python. The file, `university-data.csv`, is about 65mb and contains just over 7,100 rows with almost 2,000 columns per record. 
+Description: Program to automatically analyze CSV files via Python rather than manually<br>
+Language: Python<br>
+Project Type: School project, solo<br>
+Purpose: to practice working with a relatively large comma separated (CSV) file in Python. The file, `university-data.csv`, is about 65mb and contains just over 7,100 rows with almost 2,000 columns per record. <br>
 
 You're going to implement 3 separate functions, each in their own file.
 
 ### state_count
 
-`state_count` needs to parse the `university-data.csv` file and return the number of times that `state` matches the `STABBR` field. 
+`state_count` parses the `university-data.csv` file and return the number of times that `state` matches the `STABBR` field. 
 
 ### highest_in_state
 
-`highest_in_state` also has a `state` parameter, but this time it's going to return the highest in state tuition for that state along with the name of the highest cost institution as a tuple. 
+`highest_in_state` also has a `state` parameter, but this time it returns the highest in state tuition for that state along with the name of the highest cost institution as a tuple. 
 
 Python supports multiple returns. Look at the following code snippet.
 
@@ -27,7 +29,7 @@ a, b = some_method()
 
 ### closest_university
 
-For `closest_university` you're going to determine the closest university to a give latitude and longitude pair. 
+determines the closest university to a give latitude and longitude pair. 
 
 To help you out there's a `distance` method given to you in the `closest_university.py` file. This method uses the [Haversine forumla](https://en.wikipedia.org/wiki/Haversine_formula) to determine the distance between to points accounting for the radius of the Earth. 
 
